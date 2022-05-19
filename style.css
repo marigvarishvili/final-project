@@ -1,0 +1,893 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,ul {
+    list-style: none
+}
+
+blockquote,q {
+    quotes: none
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.project__media__image,.about__photo__image,.work__project__image,.page__transition__child,body,html {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.dg.ac {
+    z-index: 99999 !important
+}
+
+.about__title,.work__title {
+    font-family: "clash-display";
+    font-size: 9.6rem;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(/MG\ final\ project/ClashDisplay-Regular7cead01f02fa6c0c2f4d.woff2) format("woff2"),url(/MG\ final\ project/ClashDisplay-Regularc6cec96a717bef2198d1.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(/MG\ final\ project/ClashDisplay-Light04fdfc8230ca550109f6.woff2) format("woff2"),url(/MG\ final\ project/ClashDisplay-Light0730c445c6a89241e0ea.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Mediume1257258925d24ceac2a.woff2) format("woff2"),url(ClashDisplay-Medium2c0c13ebafefdade8220.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplayVariable-Bolddc81cf50293f22342946.woff2) format("woff2"),url(ClashDisplayVariable-Bold23ed1b5aeb295ce6289b.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Bolda9c157794e6d504f7644.woff2) format("woff2"),url(ClashDisplay-Bold4ae4a352a5227f3d50a4.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplayVariable-Bolddc81cf50293f22342946.woff2) format("woff2"),url(ClashDisplayVariable-Bold23ed1b5aeb295ce6289b.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Mediume1257258925d24ceac2a.woff2) format("woff2"),url(ClashDisplay-Medium2c0c13ebafefdade8220.woff) format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Semibolda9b086e95d9920bb71c2.woff2) format("woff2"),url(ClashDisplay-Semiboldce3886900e78d2a29afc.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplayVariable-Bolddc81cf50293f22342946.woff2) format("woff2"),url(ClashDisplayVariable-Bold23ed1b5aeb295ce6289b.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Light04fdfc8230ca550109f6.woff2) format("woff2"),url(ClashDisplay-Light0730c445c6a89241e0ea.woff) format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Extralightb1b0dd747e4a14d7de6a.woff2) format("woff2"),url(ClashDisplay-Extralight4f9ed8a51f262f73d8f6.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplayVariable-Bolddc81cf50293f22342946.woff2) format("woff2"),url(ClashDisplayVariable-Bold23ed1b5aeb295ce6289b.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Regular7cead01f02fa6c0c2f4d.woff2) format("woff2"),url(ClashDisplay-Regularc6cec96a717bef2198d1.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Extralightb1b0dd747e4a14d7de6a.woff2) format("woff2"),url(ClashDisplay-Extralight4f9ed8a51f262f73d8f6.woff) format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Bolda9c157794e6d504f7644.woff2) format("woff2"),url(ClashDisplay-Bold4ae4a352a5227f3d50a4.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Clash Display";
+    src: url(ClashDisplay-Semibolda9b086e95d9920bb71c2.woff2) format("woff2"),url(ClashDisplay-Semiboldce3886900e78d2a29afc.woff) format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+
+
+*,::after,::before {
+    box-sizing: border-box
+}
+
+html {
+    font-size: .5208333333vw;
+    line-height: 1;
+    background: #fff
+}
+
+@media(max-width: 749px) {
+    html {
+        font-size:1.3333333333vw
+    }
+}
+
+a {
+    color: inherit;
+    outline: none;
+    text-decoration: none
+}
+
+img {
+    vertical-align: middle
+}
+
+button {
+    color: inherit;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer
+}
+
+[data-animation=homeTitle] span {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: top
+}
+
+html.has-scroll-smooth {
+    overflow: hidden
+}
+
+html.has-scroll-dragging {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.has-scroll-smooth body {
+    overflow: hidden
+}
+
+.has-scroll-smooth [data-scroll-container] {
+    min-height: 100vh
+}
+
+[data-scroll-direction=horizontal] [data-scroll-container] {
+    height: 100vh;
+    display: inline-block;
+    white-space: nowrap
+}
+
+[data-scroll-direction=horizontal] [data-scroll-section] {
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    height: 100%
+}
+
+.c-scrollbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 11px;
+    height: 100%;
+    transform-origin: center right;
+    transition: transform .3s,opacity .3s;
+    opacity: 0
+}
+
+.c-scrollbar:hover {
+    transform: scaleX(1.45)
+}
+
+.c-scrollbar:hover,.has-scroll-scrolling .c-scrollbar,.has-scroll-dragging .c-scrollbar {
+    opacity: 1
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar {
+    width: 100%;
+    height: 10px;
+    top: auto;
+    bottom: 0;
+    transform: scaleY(1)
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar:hover {
+    transform: scaleY(1.3)
+}
+
+.c-scrollbar_thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000;
+    opacity: .5;
+    width: 7px;
+    border-radius: 10px;
+    margin: 2px;
+    cursor: -webkit-grab;
+    cursor: grab
+}
+
+.has-scroll-dragging .c-scrollbar_thumb {
+    cursor: -webkit-grabbing;
+    cursor: grabbing
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar_thumb {
+    right: auto;
+    bottom: 0
+}
+
+.preloader {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 2
+}
+
+.preloader__div {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #242424;
+    width: 100%;
+    height: 100%
+}
+
+.preloader__text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Clash Display";
+    text-align: center;
+    mix-blend-mode: difference;
+    color: #fff;
+    z-index: 1
+}
+
+.preloader__title {
+    font-size: 9.6rem;
+    font-weight: 400
+}
+
+.preloader__number {
+    font-size: 7.2rem;
+    font-weight: 300
+}
+
+body {
+    background-color: #242424
+}
+
+.page__transition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #242424;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+.page__transition__child {
+    background: #fff
+}
+
+.nav {
+    font-family: "Clash Display";
+    position: fixed;
+    z-index: 1;
+    font-size: 2.4rem;
+    padding: 3.2rem 7rem 0;
+    width: 100%;
+    mix-blend-mode: difference;
+    color: #e8e8e8
+}
+
+@media(max-width: 749px) {
+    .nav {
+        padding:3rem 2 0 2rem
+    }
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between
+}
+
+@media(max-width: 749px) {
+    .nav__list {
+        padding:3rem 0 0 2rem
+    }
+}
+
+.nav__list__item:last-child {
+    text-align: end
+}
+
+.nav__list__item__center {
+    width: 80rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center
+}
+
+.nav__list__item__center button {
+    font-size: 2.4rem
+}
+
+.homepage {
+    position: relative;
+    background-color: #fff;
+    height: 108rem
+}
+
+.homepage__text {
+    position: inherit;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-family: "clash-display";
+    color: #242424
+}
+
+.homepage__title {
+    font-size: 20.8rem;
+    line-height: 17rem;
+    font-weight: 600
+}
+
+@media(max-width: 749px) {
+    .homepage__title {
+        font-size:9.6rem;
+        line-height: 8rem
+    }
+}
+
+.homepage__subtitle {
+    color: #019872;
+    font-size: 3.6rem;
+    letter-spacing: .36rem;
+    font-weight: 300
+}
+
+.work {
+    position: relative;
+    background-color: #242424;
+    color: #fff
+}
+
+.work__title {
+    width: 120rem;
+    padding: 15.2rem 0 16rem 22rem
+}
+
+@media(max-width: 749px) {
+    .work__title {
+        width:auto;
+        padding-left: 5rem;
+        font-size: 6.6rem
+    }
+}
+
+.work__projects {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+
+.work__projects__project {
+    position: relative;
+    margin-bottom: 25.6rem
+}
+
+.work__project__media {
+    position: relative;
+    width: 100rem;
+    height: 46rem;
+    overflow: hidden
+}
+
+@media(max-width: 749px) {
+    .work__project__media {
+        width:64rem;
+        height: 36rem
+    }
+}
+
+.work__project__text {
+    width: 100%;
+    font-family: "Clash Display";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.6rem
+}
+
+.work__project__title {
+    font-size: 5.2rem
+}
+
+.work__project__type {
+    font-size: 2.4rem
+}
+
+.about {
+    position: relative;
+    background-color: #242424;
+    color: #fff
+}
+
+.about__title {
+    width: 120rem;
+    padding: 15.2rem 0 16rem 22rem
+}
+
+@media(max-width: 749px) {
+    .about__title {
+        width:auto;
+        padding-bottom: 8rem;
+        padding-left: 5rem;
+        font-size: 6.6rem
+    }
+}
+
+.about__text {
+    padding-left: 22rem;
+    padding-bottom: 33.5rem
+}
+
+@media(max-width: 749px) {
+    .about__text {
+        padding-left:5rem
+    }
+}
+
+.about__text__title {
+    font-family: "Clash Display",sans-serif;
+    font-size: 6.4rem;
+    padding-bottom: 2.4rem
+}
+
+@media(max-width: 749px) {
+    .about__text__title {
+        font-size:4.4rem
+    }
+}
+
+.about__text__paragraph {
+    display: block;
+    font-family: "Montserrat Custom",sans-serif;
+    font-weight: 300;
+    font-size: 2.8rem;
+    width: 56rem;
+    line-height: 3.5rem
+}
+
+.about__text__paragraph span {
+    display: block
+}
+
+.about__text__paragraph :first-child {
+    margin-bottom: 1.6rem
+}
+
+@media(max-width: 749px) {
+    .about__text__paragraph {
+        width:45rem
+    }
+}
+
+.about__photo__media {
+    position: absolute;
+    width: 64rem;
+    height: 48.2rem;
+    right: 32rem;
+    top: 40rem
+}
+
+@media(max-width: 749px) {
+    .about__photo__media {
+        visibility:hidden;
+        width: 15rem;
+        height: 22.4rem
+    }
+}
+
+.contact {
+    position: relative;
+    background-color: #fff;
+    text-align: center;
+    font-family: "clash-display" sans-serif;
+}
+
+.contact__text {
+    margin-bottom: 33rem;
+    padding-top: 47.2rem
+}
+
+.contact__mail {
+    color: #242424;
+    font-size: 7.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 120rem;
+    margin: auto
+}
+
+@media(max-width: 749px) {
+    .contact__mail {
+        width:auto;
+        font-size: 4.2rem
+    }
+}
+
+.contact__availablity {
+    font-weight: 400;
+    letter-spacing: .24rem;
+    font-size: 2.4rem
+}
+
+.contact__availablity :last-child {
+    color: #019872
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 6.4rem
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 18rem;
+    height: 100%;
+    margin-bottom: 1.6rem
+}
+
+.footer__socials__icon {
+    position: relative;
+    width: 4.8rem;
+    height: 4.8rem
+}
+
+.footer__copyright {
+    font-family: "clash-display";
+    font-size: 1.8rem
+}
+
+.project {
+    background: #242424;
+    color: #fff;
+    padding: 17.6rem 22rem 10rem 22rem
+}
+
+@media(max-width: 749px) {
+    .project {
+        padding:0 3.2rem 0 3.2rem
+    }
+}
+
+.project__close {
+    width: 6.4rem;
+    height: 6.4rem;
+    position: absolute;
+    top: 2.4rem;
+    right: 7rem;
+    z-index: 1
+}
+
+.project__close svg {
+    width: 100%;
+    height: 100%
+}
+
+@media(max-width: 749px) {
+    .project__close {
+        right:3.2rem
+    }
+}
+
+.project__text {
+    position: relative;
+    width: 148rem;
+    font-family: "Clash Display";
+    margin-bottom: 1.6rem
+}
+
+@media(max-width: 749px) {
+    .project__text {
+        padding-top:13.6rem;
+        width: auto
+    }
+}
+
+.project__number {
+    position: absolute;
+    left: 0;
+    top: -5rem;
+    font-size: 7.2rem;
+    font-weight: 300
+}
+
+@media(max-width: 749px) {
+    .project__number {
+        top:7.2rem;
+        font-size: 6.4rem
+    }
+}
+
+.project__title {
+    font-size: 14.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+@media(max-width: 749px) {
+    .project__title {
+        font-size:7.2rem
+    }
+}
+
+.project__media {
+    position: relative
+}
+
+.project__media__wine {
+    width: 148rem;
+    height: 528.6rem
+}
+
+@media(max-width: 749px) {
+    .project__media__wine {
+        width:68.8rem;
+        height: 245.7rem
+    }
+}
+
+.project__media__hivey {
+    width: 148rem;
+    height: 264.5rem
+}
+
+@media(max-width: 749px) {
+    .project__media__hivey {
+        width:68.8rem;
+        height: 123rem
+    }
+}
+
+.project__media__uwd {
+    width: 148rem;
+    height: 408.7rem
+}
+
+@media(max-width: 749px) {
+    .project__media__uwd {
+        width:68.8rem;
+        height: 189.9rem
+    }
+}
+
+.project__media__agrou {
+    width: 148rem;
+    height: 287.1rem
+}
+
+@media(max-width: 749px) {
+    .project__media__agrou {
+        width:68.8rem;
+        height: 133.4rem
+    }
+}
+
+.project__description {
+    margin-top: 4.4rem;
+    display: flex;
+    margin-bottom: 19.4rem
+}
+
+@media(max-width: 749px) {
+    .project__description {
+        margin-bottom:16.2rem
+    }
+}
+
+.project__description__info {
+    width: 43rem
+}
+
+.project__info__title {
+    font-family: "Clash Display";
+    font-size: 3.6rem
+}
+
+.project__info__paragraph {
+    font-family: "Montserrat Custom";
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    line-height: 2rem
+}
+
+.project__description__roles {
+    margin-left: 17rem
+}
+
+.project__roles__title {
+    font-family: "Clash Display";
+    font-size: 3.6rem
+}
+
+.project__roles__paragraph {
+    font-family: "Montserrat Custom";
+    font-size: 1.8rem;
+    margin-top: 1.6rem
+}
+
+.project__buttons {
+    font-family: "Clash Display";
+    font-size: 3.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .5rem;
+    margin-bottom: 5.6rem
+}
+
+@media(max-width: 749px) {
+    .project__buttons {
+        padding-bottom:5.6rem
+    }
+}
+
+.project__contact {
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #242424
+}
+
+@media(max-width: 749px) {
+    .project__contact {
+        display:none
+    }
+}
+
+.project__contact__title {
+    font-family: "Clash Display";
+    font-size: 3.6rem;
+    margin-left: 15rem
+}
+
+.project__contact__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.project__buttons__mail {
+    width: 21.4rem;
+    height: 6.8rem;
+    background-color: #00a97f;
+    color: #fff;
+    border-radius: .5rem;
+    font-family: "Clash Display";
+    font-size: 2.8rem
+}
+
+.project__socials {
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 4rem;
+    margin-left: 6rem
+}
+
+.project__socials__icon {
+    width: 4.8rem;
+    height: 4.8rem
+}
